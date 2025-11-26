@@ -43,3 +43,25 @@ function toggleMobileMenu() {
     menuToggle.setAttribute('aria-expanded', 'true');
   }
 }
+
+
+const form = document.querySelector('.contact-form');
+
+form.addEventListener('submit', function(e) {
+  e.preventDefault(); // stop default submission
+
+  fetch(form.action, {
+    method: 'POST',
+    body: new FormData(form),
+    headers: {
+      'Accept': 'application/json'
+    }
+  }).then(response => {
+    if (response.ok) {
+      alert('Message sent successfully!');
+      form.reset(); // clears the form
+    } else {
+      alert('Oops! Something went wrong.');
+    }
+  });
+});
