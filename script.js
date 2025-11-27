@@ -47,8 +47,11 @@ function toggleMobileMenu() {
 
 const form = document.querySelector('.contact-form');
 
-form.addEventListener('submit', function(e) {
-  e.preventDefault(); // stop default submission
+window.addEventListener("load", () => {
+  document.body.style.opacity = "1";
+});
+
+ 
 
   fetch(form.action, {
     method: 'POST',
