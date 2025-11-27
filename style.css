@@ -117,7 +117,7 @@ body {
   justify-content: center;
   text-align: center;
   overflow: hidden;
-  padding-top: 64px; /* avoid navbar overlap on small screens */
+  padding-top: 64px; 
 }
 
 .hero-video {
@@ -167,6 +167,7 @@ body {
 
 /* Sections */
 section { padding: 6rem 0; }
+  text-align: center;
 h2 { text-align: center; margin-bottom: 2rem; color: #00ffff; }
 
 /* Services */
@@ -177,7 +178,9 @@ h2 { text-align: center; margin-bottom: 2rem; color: #00ffff; }
 }
 
 .service-card {
-  background: #0f1112;
+  background: 
+   linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("SEM.jpeg");
   padding: 2rem;
   border-radius: 12px;
   transition: transform 0.25s ease, background 0.25s ease;
