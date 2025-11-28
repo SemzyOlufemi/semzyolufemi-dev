@@ -1,0 +1,22 @@
+.about-section-full {
+  padding: 100px 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+  color: #00ffff;
+  background: #f4f4f4;
+  border-radius: 15px;
+}
+.about-section-full h1, .about-section-full h2 {
+  color: #00ffff;
+  margin-bottom: 15px;
+}
+.about-section-full {
+  background: linear-gradient(rgba(0,0,50,0.7), rgba(0,0,50,0.7)), url("about.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  border-radius: 15px;
+}
