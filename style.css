@@ -237,6 +237,24 @@ h2 { text-align: center; margin-bottom: 2rem; color: #00ffff; }
   background: rgba(0,255,255,0.08);
 }
 
+.show-more-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0066ff;
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.show-more-btn:hover {
+  background: #0047b3;
+  transform: scale(1.05);
+}
+
+
 /* Contact */
 .contact-form {
   display: flex;

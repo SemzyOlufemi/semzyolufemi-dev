@@ -67,4 +67,4 @@ window.addEventListener("load", () => {
       alert('Oops! Something went wrong.');
     }
   });
-});
+

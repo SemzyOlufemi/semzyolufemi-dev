@@ -1,0 +1,31 @@
+.portfolio-page {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.portfolio-card {
+  background: #111;
+  border-radius: 15px;
+  padding: 15px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-8px);
+}
+
+.portfolio-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.portfolio-card h3 {
+  color: #00aaff;
+  margin: 10px 0;
+}
